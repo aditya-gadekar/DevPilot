@@ -1,0 +1,81 @@
+﻿# ==============================
+# Secrets and environment files
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+secret/
+
+# ==============================
+# Java / Maven
+# ==============================
+target/
+backend/target/
+*.class
+
+# ==============================
+# Node / Next.js
+# ==============================
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+build/
+dist/
+coverage/
+
+# ==============================
+# DevPilot local repository storage
+# ==============================
+backend/devpilot-storage/
+devpilot-storage/
+repository-storage/
+cloned-repositories/
+repositories-data/
+repositories/
+repos/
+
+# ==============================
+# Local databases and data
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# AI models
+# ==============================
+models/
+ollama/
+
+# ==============================
+# IDE files
+# ==============================
+.idea/
+*.iml
+.vscode/
+
+# ==============================
+# OS files
+# ==============================
+Thumbs.db
+.DS_Store
+desktop.ini
+
+git-backup/
+
+# Old tutorial frontend (kept locally)
+client/
+
+# Nested Git metadata
+frontend/.git
